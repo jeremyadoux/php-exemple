@@ -33,3 +33,12 @@ template "/etc/php5/apache2/php.ini" do
 	mode '0644'
 	notifies :restart, resources("service[apache2]"), :delayed
 end
+
+template "/etc/php5/apache2/conf.d/xdebug.ini" do
+	source "xdebug.ini.erb"
+	cookbook "lamp"
+	owner 'root'
+	group 'root'
+	mode '0644'
+	notifies :restart, resources("service[apache2]"), :delayed
+end
