@@ -36,7 +36,7 @@ Vagrant.configure(2) do |config|
   config.vm.define project_name do |node|
     node.vm.hostname = "php-exemples.local"
     node.vm.network :private_network, ip: ip_address
-    node.hostmanager.aliases = [ "www.php-exemples.local" ]
+    node.hostmanager.aliases = [ "www.php-exemples.local", "symfony.local", "www.symfony.local" ]
   end
   config.vm.provision :hostmanager
   
