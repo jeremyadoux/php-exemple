@@ -1,0 +1,6 @@
+<testsuites>
+    <testsuite name="My Test Suite">
+        <directory>D:\VM\Vagrant\html\exemples\classes\Test</directory>
+        <file>D:\VM\Vagrant\html\exemples\classes\Test\MoneyTest.php</file>
+    </testsuite>
+</testsuites>
