@@ -4,6 +4,8 @@
 /mysql/*
 !mysql/.gitkeep
 
+/Berksfile.lock
+
 /.vagrant/
 /.vagrant/*
 # Cache and logs (Symfony2)

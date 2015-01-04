@@ -1,5 +1,6 @@
 DEPENDENCIES
   apache2
+  build-essential
   composer
   git
   lamp
