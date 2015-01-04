@@ -1,6 +1,11 @@
 /.idea/
 /.idea/*
 
+/mysql/*
+!mysql/.gitkeep
+
+/.vagrant/
+/.vagrant/*
 # Cache and logs (Symfony2)
 /app/cache/*
 /app/logs/*
